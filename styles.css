@@ -8,22 +8,29 @@
 #container {
 background-image: url(Pictures/toyamakanna.jpg);
 background-repeat: no-repeat;
-background-size:auto;
-min-height: 300px;
 background-position: center;
 display: flex;
-justify-content: center;
+flex-direction: column;
+justify-content: flex-start;
 color: rgba(184, 167, 167, 0.966);
+border: solid;
+border-color: rgb(119, 60, 60);
+border-radius: 25px;
 }
 
 #section2 {
     background-image: url(Pictures/tk-unsplash.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    justify-content: center;
-    min-height: 300px;
     display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 300px;
     color: rgba(83, 70, 70, 0.966);
+    Border: solid;
+    border-color: solid rgb(150, 79, 79);
+    border-radius: 25px;
 }
 
 #section3 {
@@ -31,7 +38,12 @@ background-image: url(Pictures/Matthis-gibson.jpg);
 background-repeat: no-repeat;
 background-position: center;
 display: flex;
-justify-content: center;
+flex-direction:column;
+justify-content: flex-start;
+align-items: center;
 min-height: 300px;
 color: rgba(224, 223, 236, 0.92);
+Border: solid;
+border-color: rgb(122, 79, 79);
+border-radius: 25px;
 }
